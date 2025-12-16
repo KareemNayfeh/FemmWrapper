@@ -10,7 +10,7 @@ This project provides an object-oriented abstraction layer for FEMM using Python
 
 Verdirame, J. M., Seaberg, C., Kwon Y., Nayfeh, K. S., Trumper, D. L., and Nayfeh, S. A., “A Survey of Passive Magnetic Springs,” American Society for Precision Engineering 40th Annual Meeting, San Diego, California, 2025.
 
-The motivation behind this wrapper is to improve upon existing FEMM scripting approaches (such as octaveFEMM), which rely on primitive, sequential command execution and lack an object-oriented structure. By introducing classes such as models and magnetic bodies, this wrapper enables clearer, more maintainable, and more reusable FEMM simulations.
+This wrapper was made to improve FEMM scripting approaches, which usually rely on primitive, sequential command execution and lack an object oriented structure. With this wrapper, simulations can accomplished in more clear and maintainable way.
 
 ---
 
