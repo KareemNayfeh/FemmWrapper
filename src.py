@@ -64,7 +64,6 @@ class Block:
         femm.mi_getmaterial(self.material)
         if len(self.coords)%2 == 0:
             for i in range(0, len(coords), 2): femm.mi_drawline(coords[i], coords[i+1], coords[(i+2)%len(coords)], coords[(i+3)%len(coords)])
-
         xMax, yMax = max(coords[::2]), max(coords[1::2])
         self.x,self.y = xMax-0.1*xMax, yMax-0.1*yMax
         
